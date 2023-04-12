@@ -1,0 +1,12 @@
+
+TotalQuestXP_Options = {
+	["includeSpeakQuests"] = true,
+	["barLeft"] = 703.1372680664062,
+	["barTop"] = -20,
+	["cache"] = {
+	},
+	["showProjectedRewards"] = true,
+	["barHeight"] = 20,
+	["unlocked"] = false,
+	["barWidth"] = 200,
+}

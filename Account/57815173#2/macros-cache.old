@@ -1,0 +1,144 @@
+VER 3 0000000000000012 "2h" "135814"
+/equip Headmaster's Charge
+END
+VER 3 0000000000000010 "AOE Taunt" "132091"
+END
+VER 3 0000000000000014 "attack" "132162"
+/startattack
+END
+VER 3 0000000000000018 "Battle" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Battle Stance
+/equipslot 16 Darrowspike
+/equipslot 17 Bonescraper
+END
+VER 3 0000000000000019 "Berserker" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Berserker Stance
+/equipslot 16 Darrowspike
+/equipslot 17 Bonescraper
+END
+VER 3 000000000000000D "Berserker Charge" "132337"
+#showtooltip Charge
+/cast Charge
+/cast Berserker Stance
+END
+VER 3 0000000000000013 "Bloodthirst" "136012"
+#showtooltip
+/cast Bloodthirst
+/startattack
+END
+VER 3 0000000000000020 "circle" "135759"
+/script SetRaidTargetIcon("target", 2)
+END
+VER 3 0000000000000022 "def charge" "134400"
+#showtooltip
+/cast Charge
+/cast Defensive Stance
+END
+VER 3 000000000000000F "Defensive Stance" "132341"
+#showtooltip Defensive Stance
+/cast Defensive Stance
+/equip Draconian Deflector
+/equipslot 16 Mirah's song
+END
+VER 3 000000000000001C "dw swords" "135882"
+/equipslot [equipped:shield] 16 Thrash Blade; 16 Mirah's Song
+/equipslot [equipped:shield] 17 Mirah's Song;17 Draconian Deflector
+END
+VER 3 0000000000000008 "Hamstring" "132316"
+#showtooltip Hamstring
+/cast Hamstring
+/startattack
+END
+VER 3 0000000000000006 "Heroic Strike" "132282"
+#showtooltip Heroic Strike
+/cast Heroic Strike
+/startattack
+END
+VER 3 000000000000001F "lick" "132189"
+/lick
+END
+VER 3 000000000000001B "lower guids" "132111"
+/run for i=1, GetNumGroupMembers() do local token = "raid"..i local guid = UnitGUID(token) if guid and guid < UnitGUID("player") then print(UnitName(token)) end end
+END
+VER 3 0000000000000015 "mh to oh, new oh" "132147"
+/equipslot [equipped:shield] 16 Bonescraper; 16 Bonescraper
+/equipslot [equipped:shield] 17 Darrowspike;17 Draconian Deflector
+END
+VER 3 0000000000000004 "Mocking Blow" "132350"
+#showtooltip Mocking Blow
+/cast Battle Stance
+/cast Mocking Blow
+/startattack
+END
+VER 3 000000000000000E "Mortal Strike" "132355"
+#shotooltip Mortal Strike
+/cast Mortal Strike
+/startattack
+END
+VER 3 000000000000001A "ony range" "132187"
+/run if DBM.RangeCheck:IsShown() then DBM.RangeCheck:Hide(true) else DBM.RangeCheck:Show(8, function (unitToken) return UnitGUID(unitToken) < UnitGUID("player") end, true, nil, true) end
+END
+VER 3 0000000000000001 "Overpower" "132223"
+#showtooltip Overpower
+/cast Battle Stance
+/cast Overpower
+/startattack
+END
+VER 3 0000000000000011 "pummel" "135906"
+#showtooltip Pummel
+/cast Berserker Stance
+/cast Pummel
+/startattack
+END
+VER 3 0000000000000007 "Rend" "132155"
+#showtooltip Rend
+/cast Rend
+/startattack
+END
+VER 3 0000000000000003 "Revenge" "132353"
+#showtooltip Revenge
+/cast Defensive Stance
+/cast Revenge
+/startattack
+END
+VER 3 000000000000000A "Shield Bash" "132357"
+#showtooltip Shield Bash
+/equip Draconian Deflector
+/cast Shield Bash
+/startattack
+END
+VER 3 0000000000000021 "star" "135948"
+/script SetRaidTargetIcon("target", 1)
+END
+VER 3 0000000000000005 "Sunder" "132363"
+#showtooltip Sunder Armor
+/cast Sunder Armor
+/startattack
+END
+VER 3 0000000000000016 "swap shield/oh" "132108"
+/equipslot [equipped:shield] 17 Thrash Blade; 17 Crest of Supremacy
+END
+VER 3 000000000000001E "sword battle" "INV_MISC_QUESTIONMARK"
+/cast BATTLE Stance
+/equipslot 16 Thrash Blade
+/equipslot 17 Mirah's Song
+END
+VER 3 000000000000001D "swordserk" "INV_MISC_QUESTIONMARK"
+/cast Berserker Stance
+/equipslot16 Thrash Blade
+/equipslot 17 Mirah's Song
+END
+VER 3 0000000000000009 "target" "132297"
+/target knuckle
+END
+VER 3 0000000000000002 "Taunt" "136080"
+#showtooltip Taunt
+/cast Defensive Stance
+/cast Taunt
+/startattack
+END
+VER 3 0000000000000023 "zoom" "236947"
+/use 8
+END

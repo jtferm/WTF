@@ -1,0 +1,92 @@
+VER 3 000000000100000C "autokick" "134400"
+#showtooltip [nostance:2] Pummel; Shield Bash
+/startattack
+/use [stance:1/2,worn:shield] Shield Bash
+/use [noworn:shield,nostance:3] Berserker Stance
+/use [mod,@target,harm][@focus,exists,harm][@mouseover,harm][] Pummel
+END
+VER 3 0000000001000008 "Devastate" "134400"
+#showtooltip
+/cast Devastate
+/startattack
+END
+VER 3 0000000001000009 "Execute" "134400"
+#showtooltip
+/cast Execute
+/startattack
+END
+VER 3 0000000001000001 "HS" "134400"
+#showtooltip
+/cast Heroic Strike
+/startattack
+END
+VER 3 0000000001000012 "intercept" "134400"
+#showtooltip Intercept
+/cast [nostance:3] Berserker Stance
+/cast Intercept
+END
+VER 3 0000000001000011 "intervene" "134400"
+#showtooltip Intervene
+/cast [nostance:2] Defensive Stance;
+/cast [@mouseover,help][] Intervene
+END
+VER 3 000000000100000F "reck" "134400"
+#showtooltip Recklessness
+/cast [nostance:3] Berserker Stance
+/cast Recklessness
+END
+VER 3 0000000001000010 "retaliation" "134400"
+#showtooltip Retaliation
+/cast [nostance:1] Battle Stance
+/cast [combat] Retaliation
+END
+VER 3 0000000001000004 "Revenge" "134400"
+#showtooltip
+/cast Revenge
+/startattack
+END
+VER 3 0000000001000013 "Shattering Throw" "134400"
+#showtooltip Shattering Throw
+/cast [nostance:1] Battle Stance
+/cast Shattering Throw
+END
+VER 3 0000000001000007 "Shield Slam" "134400"
+#showtooltip
+/cast Shield Slam
+/startattack
+END
+VER 3 000000000100000D "shield wall" "134400"
+#showtooltip Shield Wall
+/click [noworn:shield] ElvUI_Bar6Button12
+/cast [nostance:2] Defensive Stance
+/cast Shield Wall
+END
+VER 3 0000000001000014 "Shockwave" "134400"
+#showtooltip
+/cast Shockwave
+/startattack
+END
+VER 3 0000000001000006 "startattack" "135421"
+/startattack
+END
+VER 3 0000000001000003 "Sunder" "134400"
+#showtooltip
+/cast Sunder Armor
+/startattack
+END
+VER 3 000000000100000E "sword n board" "134400"
+#showtooltip Barricade of Eternity
+/stopcasting
+/eq [noworn:shield] Barricade of Eternity
+/equipslot [noworn:shield] 16 Titanguard
+END
+VER 3 0000000001000015 "taunt" "134400"
+#showtooltip Taunt
+/cast Defensive Stance
+/cast [target=mouseover,harm] Taunt; [target=focus,harm] Taunt; [harm] Taunt
+END
+VER 3 0000000001000002 "Victory Rush" "134400"
+#showtooltip
+/cast Victory Rush
+/startattack
+END

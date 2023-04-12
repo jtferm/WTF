@@ -1,0 +1,15 @@
+
+ElkBuffBarsDB = {
+	["global"] = {
+		["build"] = "44833",
+	},
+	["profileKeys"] = {
+		["Saben - Whitemane"] = "Default",
+		["Freater - Grobbulus"] = "Default",
+		["Freater - Whitemane"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

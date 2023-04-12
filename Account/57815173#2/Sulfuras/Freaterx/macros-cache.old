@@ -1,0 +1,58 @@
+VER 3 000000000100000B "1m CDs" "132388"
+/cast Unbreakable Armor
+/use 10
+END
+VER 3 000000000100000A "3m CDs" "INV_MISC_QUESTIONMARK"
+/cast Berserking
+/cast Unbreakable Armor
+/use 10
+END
+VER 3 0000000001000003 "Blood" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Blood Strike
+/startattack
+/cast Rune Strike
+END
+VER 3 0000000001000005 "Death" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Death Strike
+/startattack
+/cast Rune Strike
+END
+VER 3 0000000001000002 "Frost" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Frost Strike
+/startattack
+/cast Rune Strike
+END
+VER 3 0000000001000008 "Grip" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,harm][] death grip
+END
+VER 3 0000000001000004 "HowlB" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,harm][] Howling Blast
+END
+VER 3 0000000001000006 "Icy T" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,harm][] Icy Touch
+END
+VER 3 0000000001000001 "Oblit" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Obliterate
+/startattack
+/cast Rune Strike
+END
+VER 3 0000000001000007 "Plague" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Plague Strike
+/startattack
+/cast Rune Strike
+END
+VER 3 000000000100000C "Rocket Boots" "132307"
+/use 8
+END
+VER 3 000000000100000D "Self bomb" "252176"
+/use Global Thermal Sapper Charge
+/use [@player] Saronite Bomb
+END

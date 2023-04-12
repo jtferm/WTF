@@ -1,0 +1,66 @@
+
+TotalQuestXP_Options = {
+	["includeSpeakQuests"] = true,
+	["barLeft"] = 582.666687011719,
+	["unlocked"] = false,
+	["cache"] = {
+		[7830] = {
+			["rewardXP"] = 4400,
+		},
+		[2995] = {
+			["rewardXP"] = 3150,
+		},
+		[2782] = {
+			["rewardXP"] = 2100,
+		},
+		[7839] = {
+			["rewardXP"] = 4400,
+		},
+		[3761] = {
+			["rewardXP"] = 4700,
+		},
+		[7840] = {
+			["rewardXP"] = 4550,
+		},
+		[2932] = {
+			["rewardXP"] = 3450,
+		},
+		[7828] = {
+			["rewardXP"] = 4400,
+		},
+		[4787] = {
+			["rewardXP"] = 5900,
+		},
+		[7829] = {
+			["rewardXP"] = 4400,
+		},
+		[2341] = {
+			["rewardXP"] = 5600,
+		},
+		[7844] = {
+			["rewardXP"] = 4400,
+		},
+		[7841] = {
+			["rewardXP"] = 4400,
+		},
+		[7845] = {
+			["rewardXP"] = 4900,
+		},
+		[77] = {
+			["rewardXP"] = 4400,
+		},
+		[243] = {
+			["rewardXP"] = 2000,
+		},
+		[3568] = {
+			["rewardXP"] = 2550,
+		},
+		[3380] = {
+			["rewardXP"] = 3650,
+		},
+	},
+	["showProjectedRewards"] = true,
+	["barHeight"] = 20,
+	["barTop"] = -20,
+	["barWidth"] = 200,
+}

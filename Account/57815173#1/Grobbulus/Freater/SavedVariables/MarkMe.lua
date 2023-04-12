@@ -1,0 +1,2 @@
+
+MMSettings = nil

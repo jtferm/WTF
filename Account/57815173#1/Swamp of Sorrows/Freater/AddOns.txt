@@ -1,0 +1,17 @@
+CS_AddOnOrganizer: disabled
+BigWigs: disabled
+BonusScanner: disabled
+BugSack: disabled
+DebuffTimers: disabled
+ExpandAssist: disabled
+HealComm: disabled
+KLHThreatMeter: disabled
+LunaUnitFrames: disabled
+maff: disabled
+MobHealth: disabled
+MoveAnything: disabled
+oRA2: disabled
+RABuffs: disabled
+RealMobHealth: enabled
+Coordinates: disabled
+ClassicCastbars_Options: enabled

@@ -1,0 +1,136 @@
+
+KiwiFarmDB = {
+	["Sulfuras"] = {
+		["visible"] = false,
+		["disabled"] = {
+			["quality"] = true,
+		},
+		["backColor"] = {
+			0, -- [1]
+			0, -- [2]
+			0, -- [3]
+			0.4, -- [4]
+		},
+		["priceByQuality"] = {
+			{
+				["vendor"] = true,
+			}, -- [1]
+			{
+				["vendor"] = true,
+			}, -- [2]
+			{
+				["vendor"] = true,
+			}, -- [3]
+			{
+				["vendor"] = true,
+			}, -- [4]
+			{
+				["vendor"] = true,
+			}, -- [5]
+			[0] = {
+				["vendor"] = true,
+			},
+		},
+		["resetData"] = {
+			["Freaterx - Sulfuras"] = {
+				["resets"] = {
+					{
+						["reseted"] = 1680160511,
+						["time"] = 1680160511,
+						["zone"] = "Halls of Stone",
+					}, -- [1]
+					["countd"] = 0,
+					["count"] = 1,
+				},
+				["resetsd"] = {
+					1680160511, -- [1]
+				},
+			},
+		},
+		["framePos"] = {
+			["anchor"] = "TOPLEFT",
+			["x"] = 636.0003662109375,
+			["y"] = -175.9996337890625,
+		},
+		["__version"] = 1,
+		["daily"] = {
+		},
+		["minimapIcon"] = {
+			["minimapPos"] = 203.6630209504837,
+			["hide"] = false,
+		},
+		["debug"] = {
+		},
+		["collect"] = {
+			["total"] = {
+			},
+			["daily"] = {
+			},
+			["zone"] = {
+			},
+		},
+		["notify"] = {
+			{
+				["chat"] = 0,
+			}, -- [1]
+			{
+				["chat"] = 0,
+			}, -- [2]
+			{
+				["chat"] = 0,
+			}, -- [3]
+			{
+				["chat"] = 0,
+			}, -- [4]
+			{
+				["chat"] = 0,
+			}, -- [5]
+			["sound"] = {
+			},
+		},
+		["total"] = {
+			["moneyItems"] = 0,
+			["countMobs"] = 0,
+			["moneyByQuality"] = {
+			},
+			["moneyCash"] = 0,
+			["killedMobs"] = {
+			},
+			["lootedItems"] = {
+			},
+			["countByQuality"] = {
+			},
+			["moneyQuests"] = 0,
+			["countItems"] = 0,
+		},
+		["leveling"] = {
+			["Freaterx - Sulfuras"] = {
+				["xpMaxXP"] = 1571800,
+				["xpLastXP"] = 127843,
+				["duration"] = 2086,
+				["xpFromXP"] = -390087,
+			},
+		},
+		["priceByItem"] = {
+		},
+		["session"] = {
+			["moneyItems"] = 0,
+			["countMobs"] = 0,
+			["moneyByQuality"] = {
+			},
+			["moneyCash"] = 0,
+			["killedMobs"] = {
+			},
+			["lootedItems"] = {
+			},
+			["countByQuality"] = {
+			},
+			["moneyQuests"] = 0,
+			["countItems"] = 0,
+		},
+		["resetsNotify"] = {
+		},
+		["zone"] = {
+		},
+	},
+}

@@ -1,0 +1,86 @@
+
+MSBTProfiles_SavedVars = {
+	["profiles"] = {
+		["Default"] = {
+			["powerThreshold"] = 120,
+			["events"] = {
+				["PET_OUTGOING_BLOCK"] = {
+					["disabled"] = true,
+				},
+				["PET_OUTGOING_MISS"] = {
+					["disabled"] = true,
+				},
+				["PET_OUTGOING_DEFLECT"] = {
+					["disabled"] = true,
+				},
+				["OUTGOING_SPELL_DOT_CRIT"] = {
+					["disabled"] = true,
+				},
+				["SELF_HOT"] = {
+					["disabled"] = true,
+				},
+				["OUTGOING_SPELL_DAMAGE_CRIT"] = {
+					["disabled"] = true,
+				},
+				["OUTGOING_SPELL_DAMAGE"] = {
+					["disabled"] = true,
+				},
+				["OUTGOING_DAMAGE_CRIT"] = {
+					["disabled"] = true,
+				},
+				["OUTGOING_DAMAGE"] = {
+					["disabled"] = true,
+				},
+				["PET_OUTGOING_DODGE"] = {
+					["disabled"] = true,
+				},
+				["PET_OUTGOING_PARRY"] = {
+					["disabled"] = true,
+				},
+				["SELF_HOT_CRIT"] = {
+					["disabled"] = true,
+				},
+				["SELF_HEAL_CRIT"] = {
+					["disabled"] = true,
+				},
+				["PET_OUTGOING_DAMAGE"] = {
+					["disabled"] = true,
+				},
+				["OUTGOING_SPELL_DOT"] = {
+					["disabled"] = true,
+				},
+				["PET_OUTGOING_DAMAGE_CRIT"] = {
+					["disabled"] = true,
+				},
+				["SELF_HEAL"] = {
+					["disabled"] = true,
+				},
+			},
+			["enableBlizzardDamage"] = false,
+			["scrollAreas"] = {
+				["Static"] = {
+					["disabled"] = true,
+				},
+				["Outgoing"] = {
+					["scrollHeight"] = 175,
+					["offsetX"] = 99,
+					["offsetY"] = -77,
+				},
+				["Notification"] = {
+					["offsetY"] = 191,
+				},
+			},
+			["abilitySuppressions"] = {
+				["Fishing"] = true,
+				["Glyph of Blocking"] = true,
+			},
+			["creationVersion"] = "5.8.1",
+		},
+	},
+}
+MSBT_SavedMedia = {
+	["fonts"] = {
+	},
+	["sounds"] = {
+	},
+}

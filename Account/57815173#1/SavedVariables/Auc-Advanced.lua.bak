@@ -1,0 +1,84 @@
+
+AucAdvancedConfig = {
+	["users.Whitemane.Freater"] = "Default",
+	["profile.Default"] = {
+		["configator.left"] = 403.137176513672,
+		["core"] = {
+			["matcher"] = {
+				["matcherlist"] = {
+					"BeanCount", -- [1]
+					"Undercut", -- [2]
+				},
+			},
+		},
+		["util"] = {
+			["appraiser"] = {
+				["columnsortcurSort"] = 6,
+				["columnsortcurDir"] = -1,
+				["item.13422.stack"] = 1,
+			},
+			["compactui"] = {
+				["priceperitem"] = true,
+			},
+			["automagic"] = {
+				["ammailguix"] = 160,
+				["ammailguiy"] = 99.9,
+				["SavedMailButtons"] = {
+				},
+			},
+			["ahwindowcontrol"] = {
+				["ahframeanchors"] = "TOPLEFT:TOPLEFT:118.8:-109.1",
+			},
+		},
+		["stat"] = {
+			["sales"] = {
+				["upgraded32"] = true,
+				["ignoredsigs"] = {
+				},
+			},
+		},
+		["configator.top"] = 676.764709472656,
+	},
+	["version"] = 1,
+}
+AucAdvancedData = {
+	["UtilSearchUiData"] = {
+		["Current"] = {
+			["general.maxbuy"] = 550,
+			["general.name"] = "Tiger Meat",
+			["columnsortcurSort"] = 5,
+			["general.name.exact"] = true,
+			["snatch.columnsortcurDir"] = 1,
+			["snatch.itemsList"] = {
+			},
+			["columnsortcurDir"] = -1,
+			["general.maxbid"] = 0,
+			["vendor.profit.min"] = 100,
+			["snatch.columnsortcurSort"] = 1,
+		},
+		["Version"] = 1,
+		["Selected"] = "",
+		["Global"] = {
+			["configator.left"] = 232.666702270508,
+			["configator.top"] = 676.666809082031,
+		},
+		["SavedSearches"] = {
+			[""] = {
+				["snatch.itemsList"] = {
+				},
+			},
+		},
+	},
+	["Stats"] = {
+	},
+}
+AucAdvancedServers = {
+	["Timestamp"] = 1567267052,
+	["KnownRealms"] = {
+		["Whitemane"] = "Whitemane",
+	},
+	["KnownServerKeys"] = {
+		["Whitemane"] = 1604720173,
+	},
+	["Version"] = 1,
+}

@@ -1,0 +1,335 @@
+
+LunaUFDB = {
+	["profileKeys"] = {
+		["Spicyice - Whitemane"] = "Default",
+		["Lutefisk - Whitemane"] = "Default",
+		["Freater - Grobbulus"] = "Default",
+		["Nerevararine - Whitemane"] = "Default",
+		["Carljeppson - Whitemane"] = "Default",
+		["Freater - Whitemane"] = "Default",
+		["Enginerd - Whitemane"] = "Default",
+		["Saben - Whitemane"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["units"] = {
+				["targettargettarget"] = {
+					["point"] = "TOPLEFT",
+					["range"] = {
+						["height"] = 0.5,
+					},
+					["auras"] = {
+						["height"] = 0.5,
+					},
+					["relativePoint"] = "TOPLEFT",
+					["borders"] = {
+						["height"] = 0.5,
+					},
+					["highlight"] = {
+						["height"] = 0.5,
+					},
+					["squares"] = {
+						["height"] = 0.5,
+					},
+					["width"] = 100,
+					["fader"] = {
+						["height"] = 0.5,
+					},
+					["combatText"] = {
+						["height"] = 0.5,
+					},
+					["height"] = 20,
+					["indicators"] = {
+						["height"] = 0.5,
+					},
+					["incHeal"] = {
+						["height"] = 0.5,
+					},
+				},
+				["targettarget"] = {
+					["indicators"] = {
+						["height"] = 0.5,
+					},
+					["range"] = {
+						["height"] = 0.5,
+					},
+					["auras"] = {
+						["height"] = 0.5,
+					},
+					["relativePoint"] = "TOPLEFT",
+					["borders"] = {
+						["height"] = 0.5,
+					},
+					["incHeal"] = {
+						["height"] = 0.5,
+					},
+					["squares"] = {
+						["height"] = 0.5,
+					},
+					["y"] = 50,
+					["x"] = 90,
+					["fader"] = {
+						["height"] = 0.5,
+					},
+					["combatText"] = {
+						["height"] = 0.5,
+					},
+					["height"] = 30,
+					["point"] = "TOPLEFT",
+					["highlight"] = {
+						["height"] = 0.5,
+					},
+				},
+				["partypet"] = {
+					["highlight"] = {
+						["height"] = 0.5,
+					},
+					["range"] = {
+						["height"] = 0.5,
+					},
+					["auras"] = {
+						["height"] = 0.5,
+					},
+					["borders"] = {
+						["height"] = 0.5,
+					},
+					["squares"] = {
+						["height"] = 0.5,
+					},
+					["fader"] = {
+						["height"] = 0.5,
+					},
+					["combatText"] = {
+						["height"] = 0.5,
+					},
+					["incHeal"] = {
+						["height"] = 0.5,
+					},
+					["indicators"] = {
+						["height"] = 0.5,
+					},
+				},
+				["party"] = {
+					["highlight"] = {
+						["height"] = 0.5,
+					},
+					["indicators"] = {
+						["height"] = 0.5,
+					},
+					["anchorTo"] = "UIParent",
+					["showPlayer"] = false,
+					["range"] = {
+						["height"] = 0.5,
+					},
+					["auras"] = {
+						["height"] = 0.5,
+					},
+					["showPlayersolo"] = false,
+					["relativePoint"] = "TOPRIGHT",
+					["borders"] = {
+						["height"] = 0.5,
+					},
+					["squares"] = {
+						["height"] = 0.5,
+					},
+					["width"] = 150,
+					["y"] = -159.244498916079,
+					["x"] = -1222.13342203627,
+					["fader"] = {
+						["height"] = 0.5,
+					},
+					["combatText"] = {
+						["height"] = 0.5,
+					},
+					["incHeal"] = {
+						["height"] = 0.5,
+					},
+					["portrait"] = {
+						["enabled"] = false,
+						["isBar"] = false,
+					},
+				},
+				["target"] = {
+					["indicators"] = {
+						["elite"] = {
+							["enabled"] = true,
+							["side"] = "LEFT",
+						},
+						["height"] = 0.5,
+						["raidTarget"] = {
+							["anchorPoint"] = "TOP",
+							["size"] = 40,
+						},
+					},
+					["range"] = {
+						["height"] = 0.5,
+					},
+					["auras"] = {
+						["height"] = 0.5,
+					},
+					["borders"] = {
+						["height"] = 0.5,
+					},
+					["squares"] = {
+						["height"] = 0.5,
+					},
+					["x"] = 500,
+					["fader"] = {
+						["height"] = 0.5,
+					},
+					["combatText"] = {
+						["height"] = 0.5,
+					},
+					["incHeal"] = {
+						["height"] = 0.5,
+					},
+					["portrait"] = {
+						["enabled"] = false,
+						["isBar"] = false,
+					},
+					["highlight"] = {
+						["height"] = 0.5,
+					},
+					["height"] = 70,
+				},
+				["raid"] = {
+					["auras"] = {
+						["height"] = 0.5,
+					},
+					["squares"] = {
+						["height"] = 0.5,
+					},
+					["highlight"] = {
+						["height"] = 0.5,
+					},
+					["range"] = {
+						["height"] = 0.5,
+					},
+					["borders"] = {
+						["height"] = 0.5,
+					},
+					["positions"] = {
+						{
+							["y"] = 634.544576514316,
+							["x"] = 24.2223693966128,
+							["point"] = "BOTTOMLEFT",
+							["relativePoint"] = "BOTTOMLEFT",
+						}, -- [1]
+						{
+							["x"] = 60.6535720825195,
+							["point"] = "BOTTOMLEFT",
+							["relativePoint"] = "BOTTOMLEFT",
+						}, -- [2]
+					},
+					["indicators"] = {
+						["height"] = 0.5,
+					},
+					["fader"] = {
+						["height"] = 0.5,
+					},
+					["combatText"] = {
+						["height"] = 0.5,
+					},
+					["incHeal"] = {
+						["height"] = 0.5,
+					},
+				},
+				["pet"] = {
+					["highlight"] = {
+						["height"] = 0.5,
+					},
+					["range"] = {
+						["height"] = 0.5,
+					},
+					["auras"] = {
+						["height"] = 0.5,
+					},
+					["borders"] = {
+						["height"] = 0.5,
+					},
+					["enabled"] = false,
+					["squares"] = {
+						["height"] = 0.5,
+					},
+					["fader"] = {
+						["height"] = 0.5,
+					},
+					["combatText"] = {
+						["height"] = 0.5,
+					},
+					["incHeal"] = {
+						["height"] = 0.5,
+					},
+					["indicators"] = {
+						["height"] = 0.5,
+					},
+					["portrait"] = {
+						["isBar"] = false,
+					},
+				},
+				["player"] = {
+					["xpBar"] = {
+						["backgroundAlpha"] = 0.01,
+						["height"] = 1,
+					},
+					["point"] = "BOTTOMLEFT",
+					["auras"] = {
+						["debuffs"] = true,
+						["debuffpos"] = "TOP",
+						["height"] = 0.5,
+						["buffs"] = true,
+						["weaponbuffs"] = true,
+					},
+					["relativePoint"] = "BOTTOMLEFT",
+					["borders"] = {
+						["height"] = 0.5,
+					},
+					["powerBar"] = {
+						["vertical"] = false,
+						["ticker"] = false,
+						["hideticker"] = true,
+					},
+					["highlight"] = {
+						["height"] = 0.5,
+					},
+					["healthBar"] = {
+						["colorType"] = "percent",
+						["vertical"] = false,
+					},
+					["squares"] = {
+						["height"] = 0.5,
+					},
+					["y"] = 131.44441820718,
+					["x"] = 380,
+					["fader"] = {
+						["height"] = 0.5,
+					},
+					["combatText"] = {
+						["height"] = 0.5,
+					},
+					["height"] = 70,
+					["indicators"] = {
+						["height"] = 0.5,
+						["raidTarget"] = {
+							["anchorPoint"] = "TOP",
+							["size"] = 40,
+						},
+						["status"] = {
+							["x"] = 1,
+							["size"] = 23,
+						},
+					},
+					["incHeal"] = {
+						["height"] = 0.5,
+					},
+					["portrait"] = {
+						["enabled"] = false,
+						["isBar"] = false,
+					},
+				},
+			},
+			["locked"] = true,
+			["version"] = 3034,
+		},
+	},
+}
